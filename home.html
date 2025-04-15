@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Clean Lines</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" />
+  <style>
+    body { font-family: 'Helvetica Neue', sans-serif; scroll-behavior: smooth; }
+    .fade-in { animation: fadeIn 1.5s ease-in-out; }
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body class="bg-white text-gray-800">
+  <!-- Header -->
+  <header class="bg-gray-100 shadow-md p-4 sticky top-0 z-50">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">The Clean Lines</h1>
+      <nav class="space-x-4">
+        <a href="index.html" class="hover:text-blue-600">Home</a>
+        <a href="services.html" class="hover:text-blue-600">Services</a>
+        <a href="portfolio.html" class="hover:text-blue-600">Portfolio</a>
+        <a href="contact.html" class="hover:text-blue-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-20 bg-gray-50 fade-in">
+    <h2 class="text-4xl font-bold mb-4">Where Simplicity Meets Sophistication</h2>
+    <p class="text-lg mb-6">Every space tells a story of elegance and purpose.</p>
+    <a href="portfolio.html" class="bg-blue-600 text-white px-6 py-3 rounded-full">View Portfolio</a>
+  </section>
+
+  <!-- Intro -->
+  <section class="py-16 px-4 max-w-4xl mx-auto fade-in">
+    <h3 class="text-3xl font-semibold mb-4">Welcome</h3>
+    <p class="mb-4">We are a freelance Interior Design studio offering 2D/3D visuals for design professionals. Whether you're a solo designer or a growing firm, we deliver clean, quick-turnaround visuals that wow clients and streamline your process.</p>
+    <ul class="list-disc list-inside">
+      <li>Email: thecleanlines27@gmail.com</li>
+      <li>Phone: +91 72889 52705</li>
+      <li>
+        Social: 
+        <a href="https://www.instagram.com/thecleanlines_/" class="text-blue-600 underline">Instagram</a>, 
+        <a href="https://www.facebook.com/people/The-clean-lines/100083340062464/" class="text-blue-600 underline">Facebook</a>, 
+        <a href="https://www.linkedin.com/company/the-clean-lines/" class="text-blue-600 underline">LinkedIn</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Portfolio Gallery -->
+  <section class="py-16 px-4 max-w-6xl mx-auto fade-in">
+    <h3 class="text-3xl font-semibold mb-8 text-center">Our Work</h3>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <a href="Enscape_2025-01-02-12-08-08.png" data-lightbox="portfolio" data-title="Render 1">
+        <img src="Enscape_2025-01-02-12-08-08.png" alt="Render 1" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transform transition duration-300">
+      </a>
+      <a href="Enscape_2025-01-03-07-31-02.png" data-lightbox="portfolio" data-title="Render 2">
+        <img src="Enscape_2025-01-03-07-31-02.png" alt="Render 2" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transform transition duration-300">
+      </a>
+      <a href="Enscape_2025-01-03-07-36-29.png" data-lightbox="portfolio" data-title="Render 3">
+        <img src="Enscape_2025-01-03-07-36-29.png" alt="Render 3" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transform transition duration-300">
+      </a>
+      <a href="Enscape_2025-01-03-07-57-39.png" data-lightbox="portfolio" data-title="Render 4">
+        <img src="Enscape_2025-01-03-07-57-39.png" alt="Render 4" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transform transition duration-300">
+      </a>
+      <a href="B.png" data-lightbox="portfolio" data-title="Render 5">
+        <img src="B.png" alt="Render 5" class="w-full h-auto rounded-lg shadow-md hover:scale-105 transform transition duration-300">
+      </a>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="text-center py-16 bg-blue-100 fade-in">
+    <h3 class="text-2xl font-semibold mb-4">Let's Bring Your Vision to Life</h3>
+    <a href="contact.html" class="bg-blue-600 text-white px-6 py-3 rounded-full">Contact Us</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white text-center py-6">
+    <p>&copy; 2025 The Clean Lines. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+</body>
+</html>
